@@ -1,0 +1,41 @@
+# Entorno local Python
+backend/.venv/
+backend/db.sqlite3
+**/__pycache__/
+*.py[cod]
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+# Secretos y temporales
+.env
+.env.*
+!.env.example
+*.log
+respaldo_lab13_*/
+# El paquete instalador puede guardarse por separado
+PAQUETE_LAB13/
+
+# Proteccion extra para la entrega del Laboratorio 13
+**/node_modules/
+**/dist/
+**/.venv/
+**/.venv*/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/*.sqlite3
+**/*.db
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*credentials*.json
+**/*secret*.json
+**/secrets.properties
+**/.vscode/
+**/.idea/
+**/.pytest_cache/
+**/respaldo_lab13_*/
+**/RESPALDOS*/
+**/Thumbs.db
